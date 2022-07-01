@@ -1,0 +1,17 @@
+---
+# gohitech/cvl/playbooks/desktop_play.yml
+# Ansible playbook for Characterisation Virtual Laboratory (CVL) Desktop configuration
+#
+- hosts: '{{target|default("localhost")}}'
+  collections:
+    - gohitech.cvl
+
+  pre_tasks: []
+
+  roles:
+    - sssd
+    - desktop
+    - gpu
+
+  tasks: []
+  post_tasks: []
