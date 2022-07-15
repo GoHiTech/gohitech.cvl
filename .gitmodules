@@ -1,0 +1,6 @@
+[submodule "roles/sssd"]
+	path = roles/sssd
+	url = https://github.com/dean-taylor/ansible-role-sssd.git
+[submodule "roles/desktop"]
+	path = roles/desktop
+	url = https://github.com/CeRDS/ansible-role-desktop.git
